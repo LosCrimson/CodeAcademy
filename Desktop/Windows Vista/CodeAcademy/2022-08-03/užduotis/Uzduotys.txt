@@ -1,0 +1,9 @@
+1. Nustatyti <body> elementui background-color #bdc3c7
+2. <h1> elementas turi būti #9b59b6 spalvos
+3. Visi <h2> elementai turi būti oranžiniai
+4. Padaryti visus <li> elementus mėlynus (spalvą pasirink pats)
+5. Pakeisti kiekvieno paragrafo background-color į geltoną
+6. Visų input border turi būti raudona ir 3px storumo
+7. Pakeisti visų elementų, kurių klasė "hello" į baltą background
+8. Pakeisti visų elementų rėmą, kurių id yra "special" į 2px solid blue (pasirinkti patiems rgb spalvą)
+9. Visi paragrafo elementai, kurie yra div konteineriuose, turi buti 25px dydžio.

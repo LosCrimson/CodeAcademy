@@ -1,0 +1,52 @@
+.Payment_form{
+    margin: 0 auto;
+    width: 500px;
+    border-radius: 30px;
+    text-align: left;
+
+}
+.Input_label{
+    display: inline-block;
+    width: 50%;
+    text-align: right;
+    
+}
+.Input_field{
+    box-sizing: border-box;
+    width: 50%;
+    float: right;
+    text-align: right;
+}
+.specification{
+    font-style: italic;
+}
+.Title_radio{
+    margin: 0 0 0 50%;
+    border-radius: 4px;
+}
+
+/* button{
+    width: 50%;
+    margin: 0 auto;
+} */
+.button_holder{
+    width: 40%;
+    margin: 0 auto;
+    /* display: flex;
+    align-items: center; */
+}
+.Input_holder{
+    width: 100%;
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}

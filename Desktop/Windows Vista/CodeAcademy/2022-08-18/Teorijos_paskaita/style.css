@@ -1,0 +1,78 @@
+.Payment_form{
+    margin: 0 auto;
+    width: 500px;
+    border-radius: 30px;
+    text-align: left;
+
+}
+.Input_label{
+    display: inline-block;
+    width: 50%;
+    text-align: right;
+    
+}
+.Input_field{
+    box-sizing: border-box;
+    width: 50%;
+    float: right;
+    text-align: right;
+}
+.specification{
+    font-style: italic;
+}
+.Title_radio{
+    margin: 0 0 0 50%;
+    border-radius: 4px;
+}
+
+button{
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+}
+.button_holder{
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+}
+.Input_holder{
+    width: 100%;
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+input:focus{
+    outline-color: rgb(187, 155, 15);
+}
+input:in-range{
+    border-color: rgb(11, 40, 168);
+}
+input:out-of-range {
+    border: 2px solid rgb(119, 11, 11);
+}
+input:invalid {
+    background-color: ivory;
+    border: none;
+    outline: 2px solid red;
+    border-radius: 5px;
+}
+.Input_field:valid {
+    background-color: rgb(240, 255, 242);
+    border: none;
+    outline: 2px solid rgb(1, 255, 56);
+    border-radius: 5px;
+}
+button:hover{
+    background-color: rgb(25, 175, 150);
+}

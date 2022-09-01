@@ -1,0 +1,23 @@
+header
+        {
+         display: flex;
+         justify-content: space-between;
+         align-items:center;
+        }
+div 
+        {
+        background-color: rgba(173, 173, 173, 0.568); 
+        margin: 30px; 
+        width: 850px;
+        }
+
+footer
+        {
+            width: 450px; 
+        }
+footer.foo
+        {
+            display: flex;
+            justify-content: space-between;
+            align-items:center; 
+        }

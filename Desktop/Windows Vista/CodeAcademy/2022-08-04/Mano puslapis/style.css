@@ -1,0 +1,26 @@
+html {
+    font-family: "Open sans";
+}
+div {
+    background-color: rgb(228, 228, 28);
+    padding: 10px;
+    border: 10px;
+    border-color: rgb(255, 255, 255);
+    background-clip: content-box;
+    text-align: left;
+}
+.Footer{
+    text-align: center;
+}
+h1{
+    text-align: center;
+}
+span{
+    vertical-align: middle;
+    display: table-cell;
+}
+img{
+    vertical-align: middle;
+    display: table-cell;
+    margin-left: 1em;
+}

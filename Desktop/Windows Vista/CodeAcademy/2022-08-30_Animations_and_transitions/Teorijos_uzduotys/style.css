@@ -1,0 +1,46 @@
+div{
+    width: 100px;
+    height: 100px;
+    background: rgb(101, 25, 172);
+    animation-name: color_transition;
+    animation: color_transition 5s infinite;
+    border-radius: 10px;
+    position: relative;
+    align-self: center;
+    justify-self: center;
+}
+
+@keyframes color_transition{
+0%   {background-color:rgb(161, 54, 54); left:0px; top:0px; width: 300px;}
+50%  {background-color:rgb(28, 211, 28); left:0px; top:200px; width: 50px;}
+100%   {background-color:rgb(219, 77, 77); left:0px; top:0px; width: 300px;}
+}
+
+body{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+h1:hover{
+    animation: text_background 1s;
+    width: 200px;
+    white-space: nowrap;
+    transition-timing-function: ease-in;
+}
+h1{
+    padding: 0 20px;
+}
+
+@keyframes text_background{
+    0%, 100%  {background-color:rgb(161, 54, 54); width: 0;}
+    50%  {background-color:rgb(28, 211, 28); width: 200px;}
+    }
+
+.loading_container{
+    display: flex;
+    align-items: center;
+    /* text-align: center; */
+    animation: none;
+    background: none;
+    width: 200px;
+}

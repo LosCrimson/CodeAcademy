@@ -1,0 +1,26 @@
+body {
+    background-color: rgb(116, 11, 214);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(196, 59, 59);
+}
+.Text_box{
+    background-color: rgb(53, 8, 104);
+    height: 90%;
+    width: 300px;
+    border: rgb(167, 143, 12);
+    border-style: dotted;
+    border-width: 4px;
+    padding: 20px;
+    text-align: justify;
+}
+h1 {
+    color: rgb(255, 251, 7);
+}
+.Capital {
+   font-size: 50px; 
+}
+div {
+    text-align: center;
+}

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <form action="POST">
+        <fieldset class="Payment_form">
+            <h1>Payment form</h1>
+            <p>Required fields are followed by *</p>
+            <h1>Contact infomration</h1>
+
+            <fieldset class="Title_radio">
+                <legend>Title</legend>
+                <input type="radio" name="title" value="Mister" id="Mister">
+                <label for="Mister">Mister</label><br>
+                <input type="radio"  name="title" value="Miss" id="Miss">
+                <label for="Miss">Miss</label>
+            </fieldset><br>
+
+            <label for="Name" class="Input_label">Name: *</label> <input type="text" required class="Input_field" id="Name"><br><br>
+            <label for="E-mail" class="Input_label">E-mail: *</label> <input type="email" required class="Input_field" id="E-mail"><br><br>
+            <label for="Password" class="Input_label">Password: *</label> <input type="password" required class="Input_field" id="Password">
+            <h1>Payment information</h1>
+
+
+                <label for="card_type" class="Input_label">Card type:</label>
+                <select id="card_type" name="card">
+                    <option value="Visa">Visa</option>
+                    <option value="Mastercard">Mastercard</option>
+                </select><br><br>
+
+                <label for="Card_number" class="Input_label">Card number: * </label><input type="number" required size="16" maxlength="16" minlength="16" class="Input_field" id="Card_number"><br><br>
+                <label for="Expiration" class="Input_label">Expiration date: * </label><input type="month" required class="Input_field" id="Expiration"><br>
+
+
+            <p class="specification">formated as mm/yy</p><br>
+
+            <!-- <div class="button_holder"> -->
+                <button class="button_holder">Validate the payment</button>
+            <!-- </div> -->
+        </fieldset>
+    </form>
+
+</body>
+</html>

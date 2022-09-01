@@ -1,0 +1,9 @@
+div {width: 100px; height: 100px; }
+.vienas {background-color: #cf7e21;}
+.du {background-color: #f526a675;}
+.trys {background-color: rgb(70, 67, 65);}
+.keturi {background-color: rgba(182, 241, 18, 0.637);}
+.penki {background-color: hsl(4, 92%, 47%);}
+.sesi {background-color: hsla(0, 94%, 50%, 0.384);}
+.septyni {background-color: rgb(209, 127, 32);}
+body {background-image: url("background.jpg")}

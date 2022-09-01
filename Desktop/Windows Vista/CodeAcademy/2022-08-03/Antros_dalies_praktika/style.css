@@ -1,0 +1,7 @@
+h1 span {color: rgb(32, 163, 163);}
+.lorem_ipsum {color: rgb(107, 202, 29);}
+html {font-size: 12px; font-family: "Roboto", Roboto; font-weight: bold;}
+p {
+    max-width: 500px;
+  }
+#tarpai {line-height: 2;}

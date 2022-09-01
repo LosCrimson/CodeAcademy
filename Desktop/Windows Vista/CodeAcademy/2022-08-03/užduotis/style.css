@@ -1,0 +1,10 @@
+body {background-color :#bdc3c7}
+h1 {color: #9b59b6;}
+h2 {color: #e78310;}
+li {color: #1d54ca;}
+p {background-color: #e9db15;}
+input{border-width: 3px; border-color: #ec0b3c;}
+.hello{background-color: #ecf8f8;}
+#special{border-width: 2px; border-color: #1012b8;}
+div p{size: 25px;}
+html {font-family: Noto Sans JP;}

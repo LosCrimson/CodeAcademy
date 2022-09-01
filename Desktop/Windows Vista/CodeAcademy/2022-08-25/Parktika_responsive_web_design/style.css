@@ -1,0 +1,68 @@
+body{
+    background-color: rgb(240, 232, 224);
+    margin: 4%;
+    min-height: 120vh;
+}
+img{
+    width: 30%;
+    margin: 0 0 2% 0;
+}
+nav{
+    padding: 5%;
+}
+.container_for_nav{
+    border-radius: 5px;
+    background-color: rgba(255, 119, 0, 0.671);
+    box-shadow: 1px 1px 5px rgb(0, 0, 0);
+}
+nav:nth-child(2n){
+    border-style: solid;
+    border-width: 1px 0;
+}
+.container_login{
+    border-radius: 5px;
+    background-color: rgba(255, 119, 0, 0.671);
+    margin: 3% 0 3% 0;
+    padding: 5%;
+    box-shadow: 1px 1px 5px rgb(0, 0, 0);
+}
+main{
+    border-radius: 5px;
+    background-color: rgba(255, 119, 0, 0.671);
+    padding: 5%;
+    box-shadow: 1px 1px 5px rgb(0, 0, 0);
+}
+footer{
+    display: flex;
+    justify-content: center;
+    padding: 5%;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgb(240, 232, 224);
+}
+*{
+    box-sizing: border-box;
+}
+aside{
+    border-radius: 5px;
+    background-color: rgba(255, 119, 0, 0.671);
+    padding: 5%;
+    margin: 3% 0 3% 0;
+    box-shadow: 1px 1px 5px rgb(0, 0, 0);
+}
+
+@media screen and (min-width: 425px) {
+    img{
+        width: 15%;
+    }
+    nav{
+        display: inline;
+        padding: 25%;
+    }
+    nav:nth-child(2n){
+        border-style: none;
+        border-width: 0;
+    }
+}

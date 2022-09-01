@@ -1,0 +1,10 @@
+/* body {
+    background-image: url("https://media1.giphy.com/media/l2JJvDhbnoSU9e2hW/200w.webp?cid=ecf05e47l550lmvnakewp95c0srqg1i4slhhvl9xbqfm465r&rid=200w.webp&ct=g");
+    background-repeat:repeat;
+} */
+body{
+    height: 500px;
+    width: 500px;
+    color: rgb(25, 21, 248);
+    font-size: 500px;
+}
