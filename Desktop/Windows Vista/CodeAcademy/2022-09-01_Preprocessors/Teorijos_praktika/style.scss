@@ -1,0 +1,24 @@
+
+
+nav{
+    overflow: hidden;
+    background-color: rgb(218, 218, 218);
+    display: grid;
+    grid-template-columns: 15% 30px repeat(8, 1fr) 2fr 15%;
+
+    img{
+        height: 30px;
+        grid-column-start: 2;
+        margin: auto;
+    }
+
+    a{
+        text-align: center;
+        padding: 20% 0;
+    }
+
+    span{
+        margin: auto 0;
+    }
+
+}
