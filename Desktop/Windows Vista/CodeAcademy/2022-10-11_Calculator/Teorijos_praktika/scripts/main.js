@@ -33,6 +33,14 @@ window.onload=function(){
         constructor()
         {
             this.equation = "";
+            // this.plus = "+";
+            // this.minus = "-";
+            // this.division = "/";
+            // this.multiplication = "*";
+            //Was testing if this would work but created an object inside calculate instead.
+            this.value1;
+            this.value2;
+            this.sign;
         }
 
         // still learning, most likely this will not be used.
@@ -138,11 +146,14 @@ window.onload=function(){
 
         Insert_division()
         {
-            console.log(this.equation.charAt(this.equation.length - 1) + " what char is it?");
+            // console.log(this.equation.charAt(this.equation.length - 2) + " what char is it?");
+            //chart at is working but if is not working?
             // console.log(typeof this.equation + " what is this?");
             //so it is string why is charat not working?
-            if (this.equation.charAt[this.equation.length - 1] == "/") 
-            {console.log("return nothing");}
+            if (this.equation.charAt[this.equation.length - 2] === '/') 
+                {
+                console.log("return nothing");
+                }
             else
             {
             document.getElementById("Input").value += " " + document.getElementById("Division").innerText + " ";
@@ -168,7 +179,37 @@ window.onload=function(){
         }
         Equals()
         {
-
+            let equation_array = this.equation.split(" ");
+            console.log(equation_array[0]);
+            console.log(equation_array[1]);
+            console.log(equation_array[2]);
+            this.value1 = equation_array[0];
+            this.sign = equation_array[1];
+            this.value2 = equation_array[2];
+            // let answer = this.Calculate;
+            console.log(this.Calculate);
+            console.log("equation_array[2]");
+            // return answer;
+        }
+        Calculate()
+        {
+            console.log("hello?");
+            // let operators = 
+            // {
+            //     "/" : function(a,b){return a/b}
+            // }
+            // console.log(operators[this.sign](this.value1, this.value2));
+            // return operators[this.sign](this.value1, this.value2);
+        }
+        Listen_to_equals()
+        {
+            document.getElementById("Equals").addEventListener("click", this.Equals);
+            //Listens to button and the performs a method.
+        }
+        Display_result()
+        {
+            document.getElementById("Result").value = this.Equals;
+            //Displays result in Result div element this is mostly for equals.
         }
         Positive_Negative()
         {
@@ -190,6 +231,7 @@ window.onload=function(){
     calculator_test.Listen_to_eight();
     calculator_test.Listen_to_nine();
     calculator_test.Listen_to_division();
+    calculator_test.Listen_to_equals();
 
 
 }
