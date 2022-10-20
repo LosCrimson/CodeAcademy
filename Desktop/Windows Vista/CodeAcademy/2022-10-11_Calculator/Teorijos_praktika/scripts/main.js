@@ -215,6 +215,7 @@ window.onload=function(){
         {
 
         }
+        
     }
 
     const calculator_test = new Calculator();
