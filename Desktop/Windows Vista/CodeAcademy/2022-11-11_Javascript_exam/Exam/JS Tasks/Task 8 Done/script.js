@@ -53,4 +53,6 @@ window.onload=function(){ //onload function so that would not encounter issues w
     console.log("");
     console.log("This is the values of each obejct: " + "object_1: " + Object.entries(object_1) + " object_2: " + Object.entries(object_2) + " object_3: " + Object.entries(object_3) +" object_4: " + Object.entries(object_4));
 
+
+    //Nothing much to comment the code kidna comments itself just hope did the task correctly.
 }
